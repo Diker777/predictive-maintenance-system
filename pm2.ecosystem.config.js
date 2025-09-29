@@ -18,11 +18,11 @@ module.exports = {
       exec_mode: 'fork',
       env: {
         ASPNETCORE_ENVIRONMENT: 'Development',
-        ASPNETCORE_URLS: 'http://localhost:5219'
+        ASPNETCORE_URLS: 'http://0.0.0.0:5219'
       },
       env_production: {
         ASPNETCORE_ENVIRONMENT: 'Production',
-        ASPNETCORE_URLS: 'http://localhost:5219'
+        ASPNETCORE_URLS: 'http://0.0.0.0:5219'
       },
       log_file: './logs/backend-combined.log',
       out_file: './logs/backend-out.log',
